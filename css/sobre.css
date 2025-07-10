@@ -1,0 +1,41 @@
+.historia{
+    background-color: rgb(51, 82, 139);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-descricao{
+    width: 60%;
+    justify-content: center;
+}
+
+.destaque{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(178, 209, 255);
+
+}
+
+.slogan{
+    text-align: center;
+
+}
+
+@media (max-width: 800px) {
+
+  .texto-descricao {
+    width: 90%;
+    text-align: center;
+  }
+
+  .destaque {
+    font-size: 20px;
+  }
+
+  .slogan {
+    padding: 10px;
+  }
+}

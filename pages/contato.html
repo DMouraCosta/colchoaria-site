@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" sizes="192x192"
+        href="https://static.wixstatic.com/media/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg"
+        type="image/png">
+    <link rel="shortcut icon"
+        href="https://static.wixstatic.com/media/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg"
+        type="image/png">
+    <link rel="apple-touch-icon"
+        href="https://static.wixstatic.com/media/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/047a9d_fadf60d4f5da4c209c315e28dc73b68e%7Emv2.jpeg"
+        type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/carrossel.css">
+    
+
+    <title>Cama Box | Richard's Colchoaria </title>
+
+</head>
+
+<body>
+
+    <div class="whats-button">
+        <a href="https://wa.me/5589999873066" target="_blank">
+            <img src="../assets/icons/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+    <div class="header">
+        <img src="../assets/images/logo.png" alt="richads colchoaria" title="Richard's Colchoaria"">
+        <nav> 
+            <ul class=" menu">
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="dicas.html">Dicas & inspirações</a></li>
+        </ul>
+        </nav>
+
+
+    </div>
+
+    <div class="linha"></div>
+
+    <div class="carousel">
+        <div class="slide active">
+            <img src="../assets/images/produtos/cama-01.png" alt="Imagem 1" />
+            <div class="caption">O colchão dos seus sonhos</div>
+        </div>
+
+        <div class="slide">
+            <img src="../assets/images/produtos/cama-02.png" alt="Imagem 1" />
+            <div class="caption">conforto e bem estar</div>
+        </div>
+
+        <div class="slide">
+            <img src="../assets/images/produtos/cama-03.png" alt="Imagem 1" />
+            <div class="caption">Escolha o seu colchão</div>
+        </div>
+
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+
+    <div class="linha"></div>
+
+    <h2>Contato</h2>
+
+    <section class="contato">
+        <div class="dados-para-contato">
+            <div class="itens-contato">
+                <img src="../assets/icons/localizacao.png" alt="Endereço">
+                <a href="#">Rua Coronel Francisco Santos, 349 Centro Picos-Pi </a>
+            </div>
+
+            <div class="itens-contato">
+                <img src="../assets/icons/tel.png" alt="Telefone">
+                <a href="https://wa.me/5589999873066" target="_blank">(89) 9 9987.3066</a>
+            </div>
+
+            <div class="itens-contato">
+                <img src="../assets/icons/e-mail.png" alt="E-mail">
+                <a href="mailto:richardscolchoaria@gmail.com" target="_blank">richardscolchoaria@gmail.com</a>
+                </a>
+
+            </div>
+
+            <div class="itens-contato">
+                <img src="../assets/icons/gostar.png" alt="Redes sociais">
+                <a href="https://www.facebook.com/richards.colchoaria.9" target="_blank"><img
+                        src="../assets/icons/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/richardscolchoariaoficial"><img src="../assets/icons/instagram.png"
+                        alt="instagram"></a>
+
+            </div>
+
+        </div>
+
+        <form class="contato-formulario">
+            <label id="nome-label">Nome</label>
+            <input type="text" id="nome-input" placeholder="Nome" required>
+            <label id="email-label">E-mail</label>
+            <input type="email" id="email-input" placeholder="E-mail" required>
+            <label id="Mensagem">Mensagem</label>
+            <textarea type="text" id="mensagem-input" placeholder="Mensagem..." required></textarea>
+            <button id="enviar-button" title="Enviar">Enviar</button>
+
+        </form>
+
+
+    </section>
+
+    <div class="linha"></div>
+
+    <section class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15837.495134966!2d-41.4717129022207!3d-7.082593236724137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79c110c756149e3%3A0x943685e28d2f27f!2sRICHARD%E2%80%99S%20COLCHOARIA!5e0!3m2!1spt-BR!2sbr!4v1752172765447!5m2!1spt-BR!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <div class="linha"></div>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <h3>Richard's Colchoaria</h3>
+
+                <p>
+                    <img src="../assets/icons/localizacao.png" alt="Endereço" class="icon">
+                    R. Cel. Francisco Santos, 349 - Centro, Picos - PI, 64600-098 |
+                    <img src="../assets/icons/tel.png" alt="Telefone" class="icon">
+                    <a href="https://wa.me/5589999873066" target="_blank">(89) 99987-3066</a>
+                </p>
+            </div>
+
+            <div class="footer-credit">
+                <p>Desenvolvido por
+                    <a href="https://www.linkedin.com/in/dailson-costa-13bb47239" target="_blank">
+                        Dailson Costa
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../js/carrossel.js"></script>
+    <script src="../js/script.js"></script>
+
+
+
+</body>
+
+</html>

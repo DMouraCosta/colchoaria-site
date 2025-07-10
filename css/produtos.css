@@ -1,0 +1,137 @@
+
+/* Produtos */
+
+ .produtos {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centraliza os cards */
+    gap: 20px;
+  }
+
+  .mais-vendidos{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    
+  }
+
+  .card-produto {
+    background-color: #1a344b50;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s;
+  }
+
+  .card-produto:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: #1a344b85;
+  }
+
+  .card-produto img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+  }
+
+  .card-produto img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+  }
+
+  #modal {
+    display: none; 
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+
+  #modal img {
+    max-width: 90vw;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  #modal .descricao {
+    font-size: 1.2rem;
+    max-width: 90vw;
+    text-align: center;
+  }
+
+  #modal .fechar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2.5rem;
+    color: rgb(141, 141, 141);
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+  }
+
+  #modal .fechar img {
+    width: 40px;
+  }
+
+  #modal .fechar:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+  }
+
+ 
+ @media screen and (max-width: 800px) {
+    .produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-produto {
+    width: 90%;
+    height: auto;
+  }
+
+  .card-produto img {
+    max-height: 120px;
+  }
+
+  #modal img {
+    max-width: 100%;
+    max-height: 60vh;
+  }
+
+  #modal .descricao {
+    font-size: 1rem;
+  }
+
+  #modal .fechar {
+    font-size: 2rem;
+    top: 15px;
+    right: 20px;
+  }
+
+  #modal .fechar img {
+    width: 30px;
+  }
+
+ }
