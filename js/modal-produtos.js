@@ -2,35 +2,35 @@
 
 const produtos = [
     {
-        img: '../assets/images/produtos/cama-01.png',
+        img: 'assets/images/produtos/cama-01.png',
         desc: 'Colchão Forest Simmons, espuma de Visco elastico, espuma Látex, e Visco Dry Gel, Molas ensacadas'
     },
     {
-        img: '../assets/images/produtos/cama-02.png',
+        img: 'assets/images/produtos/cama-02.png',
         desc: 'Colchão Marbella Simmons, Tecido malha bamboo, espumas de alta performance, molas ensacadas, Visco'
     },
     {
-        img: '../assets/images/produtos/cama-03.png',
+        img: 'assets/images/produtos/cama-03.png',
         desc: 'Espumas com densidde progressiva, molas ensacadas, tecido malha fria'
     },
     {
-        img: '../assets/images/produtos/cama-04.png',
+        img: 'assets/images/produtos/cama-04.png',
         desc: 'Tecido em malha, molas ensacadas, espumas com densidades'
     },
     {
-        img: '../assets/images/produtos/cama-05.png',
+        img: 'assets/images/produtos/cama-05.png',
         desc: 'Molas ensacadas, conforto intermediario, tecido em malha'
     },
     {
-        img: '../assets/images/produtos/cama-06.png',
+        img: 'assets/images/produtos/cama-06.png',
         desc: 'Tecido malha fria, molas ensacadas, conforto intermediário'
     },
     {
-        img: '../assets/images/produtos/cama-07.png',
+        img: 'assets/images/produtos/cama-07.png',
         desc: 'Caixa ortopédica de madeira, espuma D28 selada'
     },
     {
-        img: '../assets/images/produtos/cama-08.png',
+        img: 'assets/images/produtos/cama-08.png',
         desc: 'Tecido em malha , conforto intermediário'
     }
 ];

@@ -8,12 +8,12 @@ window.addEventListener('load', () => {
 
 
 const dicas = [
-    { img: '../assets/images/dicas/dica-01.png' },
-    { img: '../assets/images/dicas/dica-02.png' },
-    { img: '../assets/images/dicas/dica-03.png' },
-    { img: '../assets/images/dicas/dica-04.png' },
-    { img: '../assets/images/dicas/dica-05.png' },
-    { img: '../assets/images/dicas/dica-06.png' },
+    { img: 'assets/images/dicas/dica-01.png' },
+    { img: 'assets/images/dicas/dica-02.png' },
+    { img: 'assets/images/dicas/dica-03.png' },
+    { img: 'assets/images/dicas/dica-04.png' },
+    { img: 'assets/images/dicas/dica-05.png' },
+    { img: 'assets/images/dicas/dica-06.png' },
 ];
 
 const containerDicas = document.getElementById('dicas-container');
