@@ -1,20 +1,52 @@
 .carousel {
   position: relative;
-  width: 100vw; 
+  width: 100vw;
+  height: 550px;
   margin: auto;
   overflow: hidden;
 }
 
 .slide {
-  display: none;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
 }
 
 .slide img {
   width: 100%;
-  height: 550px;
-  display: block;
+  height: 100%;
   object-fit: contain;
+}
+
+.slide.active {
+  transform: translateX(0%);
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Animações de saída */
+.slide.exit-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.slide.exit-right {
+  transform: translateX(100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Animações de entrada */
+.slide.enter-from-right {
+  transform: translateX(100%);
+}
+
+.slide.enter-from-left {
+  transform: translateX(-100%);
 }
 
 .caption {
@@ -28,7 +60,8 @@
   font-size: 24px;
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -39,11 +72,12 @@
   padding: 70px;
   cursor: pointer;
   border-radius: 50%;
+  z-index: 3;
 }
 
-.prev:hover, .next:hover {
- font-size: 42px;
-  
+.prev:hover,
+.next:hover {
+  font-size: 42px;
 }
 
 .prev {
@@ -52,8 +86,4 @@
 
 .next {
   right: 10px;
-}
-
-.active {
-  display: block;
 }

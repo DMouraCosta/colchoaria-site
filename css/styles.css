@@ -1,10 +1,25 @@
+/* Animação fade-in */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  animation: fadeInUp 0.5s ease-in;
+}
+
 *{
   box-sizing: border-box;
 }
 
 html{
   margin: 0;
-  /* height: 100%; */
 }
 
 body{
@@ -18,10 +33,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    /* align-items: center; */
-    
-    
+    justify-content: space-between;     
 }
 
 .header{
@@ -44,7 +56,6 @@ nav .menu{
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-
 }
 
 nav .li{
@@ -75,7 +86,6 @@ nav a.active {
 }
 
 footer {
-  /* background-color: #1e2a3a; */
   color: #003a61;
   padding: 30px 20px;
   font-size: 14px;
@@ -179,31 +189,6 @@ footer {
   nav a {
     padding: 8px 12px;
     font-size: 14px;
-  }
-
-  .carousel {
-    width: 100%;
-  }
-
-  .slide img {
-    height: auto;
-    max-height: 300px;
-  }
-
-  .caption {
-    font-size: 16px;
-    padding: 8px 10px;
-    bottom: 10px;
-    left: 10px;
-  }
-
-  .prev, .next {
-    font-size: 28px;
-    padding: 20px;
-  }
-
-  .prev:hover, .next:hover {
-    font-size: 32px;
   }
 
   .whats-button {
