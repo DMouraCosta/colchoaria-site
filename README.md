@@ -1,39 +1,47 @@
-# Richard Colchoaria
+# Richard Colchoaria – Proposta de Site
 
-Este é o repositório para o site da Richard Colchoaria, uma loja especializada em colchões e produtos para o sono.
+Este repositório contém uma sugestão de melhoria visual para o site da **Richard Colchoaria**, uma loja especializada em colchões e produtos voltados para o bem-estar e o sono.
 
 ## 📝 Descrição
 
-O projeto consiste na criação de um site institucional para a Richard Colchoaria, apresentando a empresa, seus produtos e oferecendo dicas úteis para os clientes. O objetivo é fornecer uma presença online profissional e informativa.
+Este projeto foi desenvolvido por mim como uma proposta não solicitada, com o objetivo de modernizar o site institucional da Richard Colchoaria, destacando seus produtos, valores e oferecendo uma experiência mais amigável e informativa para os clientes.
+
+A proposta pode ser utilizada como amostra de portfólio e está aberta para avaliação da loja.
 
 ## ✨ Funcionalidades
 
-Com base no histórico de desenvolvimento, o site atualmente conta com as seguintes páginas e funcionalidades:
+A estrutura atual da proposta conta com as seguintes páginas e seções:
 
-*   **Página Inicial (Home):** Apresentação principal da loja e seus destaques.
-*   **Página Sobre:** Informações sobre a história e os valores da Richard Colchoaria.
-*   **Página de Contato:** Formulário e informações para contato.
-*   **Página de Dicas:** Artigos e dicas sobre sono e escolha de colchões.
-*   **Carrossel de Imagens:** (Em desenvolvimento) Um carrossel dinâmico para exibir produtos ou promoções na página inicial.
+- **Página Inicial:** Destaques da loja e apresentação principal.
+- **Página Sobre:** Breve histórico e valores da empresa.
+- **Página de Contato:** Formulário e dados de contato.
+- **Página de Dicas:** Conteúdo informativo sobre sono e escolha de colchões.
+- **Carrossel de Imagens:** (em desenvolvimento) Exibição rotativa de produtos ou promoções na página inicial.
 
 ## 🚀 Tecnologias Utilizadas
 
-Este projeto foi desenvolvido utilizando tecnologias web padrão:
+O projeto foi construído com tecnologias web padrão:
 
-*   **HTML5:** Para a estruturação do conteúdo.
-*   **CSS3:** Para a estilização e design das páginas.
-*   **JavaScript:** Para interatividade e funcionalidades dinâmicas, como o carrossel.
+- **HTML5:** Estrutura do conteúdo.
+- **CSS3:** Estilização e layout visual.
+- **JavaScript:** Interatividade, como o carrossel de imagens.
 
-## 🏁 Como Executar o Projeto
+## 🏁 Como Visualizar o Projeto
 
-Como este é um projeto de front-end estático, você pode executá-lo localmente seguindo estes passos:
+Por se tratar de um projeto estático, ele pode ser executado facilmente:
 
-1.  Clone o repositório para a sua máquina local.
-2.  Navegue até o diretório do projeto.
-3.  Abra o arquivo `index.html` (ou o arquivo HTML principal) no seu navegador de preferência.
+1. Clone este repositório para seu computador.
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` em seu navegador.
 
-Não são necessárias instalações de dependências ou builds complexos.
+Ou, acesse a versão online através do GitHub Pages [(https://dmouracosta.github.io/colchoaria-site/)].
+
+## 🧾 Observações
+
+Esta é uma proposta visual demonstrativa, criada de forma independente, e não está vinculada oficialmente à loja. Caso a Richard Colchoaria deseje utilizar ou adaptar este projeto, estou totalmente aberto ao diálogo.
 
 ## ✒️ Autor
 
-*   **DMouraCosta** - `dailson100@gmail.com`
+**Dailson Costa**  
+📧 dailson100@gmail.com  
+🌐 [GitHub: DMouraCosta](https://github.com/DMouraCosta)
